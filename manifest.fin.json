@@ -12,9 +12,9 @@
 	"platform": {
 		"name": "rocketfin-macra-app",
 		"uuid": "rocketfin-macra-app",
-		"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+		"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 		"autoShow": false,
-		"providerUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/platform/provider.html",
+		"providerUrl": "https://rocketfin.github.io/openfin-macra-workspace/platform/provider.html",
 		"preventQuitOnLastWindowClosed": true,
 		"permissions": {
 			"System": {
@@ -62,7 +62,7 @@
 	"shortcut": {
 		"company": "RocketFin",
 		"description": "RocketFin Macra Demo running in OpenFin", 
-		"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+		"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 		"name": "RocketFin MGA Demo",
 		"target": ["desktop", "start-menu"]
 	},
@@ -85,7 +85,7 @@
 			"sharing": true,
 			"interop": {
 				"intentResolver": {
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/windows/intents/instance-picker.html",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/common/windows/intents/instance-picker.html",
 					"height": 715,
 					"width": 665,
 					"fdc3InteropApi": "2.0"
@@ -97,7 +97,7 @@
 					"description": "If you can not find an application to support your action please check the instances associated with this entry to see if it satisfies your need.",
 					"icons": [
 						{
-							"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico"
+							"src": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico"
 						}
 					],
 					"publisher": "Multiple",
@@ -154,7 +154,7 @@
 		},
 		"appProvider": {
 			"endpointIds": [
-				"rhttps://rocketfin.github.io/openfin-macra-workspace/apps.json"
+				"https://rocketfin.github.io/openfin-macra-workspace/apps.json"
 			],
 			"cacheDurationInSeconds": 10,
 			"cacheDurationInMinutes": 0,
@@ -180,13 +180,13 @@
 					"title": "Local Storage",
 					"enabled": true,
 					"id": "local-storage",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/endpoint/local-storage.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/endpoint/local-storage.bundle.js"
 				},
 				{
 					"title": "Context Processor",
 					"enabled": true,
 					"id": "context-processor",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/endpoint/example.context.processor.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/endpoint/example.context.processor.bundle.js"
 				}
 			],
 			"endpoints": [
@@ -238,9 +238,9 @@
 		"browserProvider": {
 			"windowOptions": {
 				"title": "Browser Starter",
-				"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
-				"newTabUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/views/platform/new-tab/new-tab.html",
-				"newPageUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/views/platform/new-tab/new-tab.html"
+				"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+				"newTabUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/views/platform/new-tab/new-tab.html",
+				"newPageUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/views/platform/new-tab/new-tab.html"
 			},
 			"windowPositioningStrategy": {
 				"x": 30,
@@ -340,7 +340,7 @@
 						"type": "Custom",
 						"tooltip": "Change Opacity",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 						"action": {
 							"id": "change-opacity",
 							"customData": {
@@ -357,7 +357,7 @@
 						"type": "Custom",
 						"tooltip": "Restore Opacity",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 						"action": {
 							"id": "restore-opacity",
 							"customData": {
@@ -374,7 +374,7 @@
 						"type": "Custom",
 						"tooltip": "Toggle Scheme",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/theme.svg",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/theme.svg",
 						"action": {
 							"id": "toggle-scheme",
 							"customData": {}
@@ -389,7 +389,7 @@
 						"type": "Custom",
 						"tooltip": "Show Home",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/search.svg",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/search.svg",
 						"action": {
 							"id": "home-show",
 							"customData": {}
@@ -403,7 +403,7 @@
 						"type": "Custom",
 						"tooltip": "Toggle Notification Center",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/bell.svg",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/bell.svg",
 						"action": {
 							"id": "notification-toggle",
 							"customData": {}
@@ -417,7 +417,7 @@
 						"type": "Custom",
 						"tooltip": "Pin this window",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/pin.svg",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/pin.svg",
 						"action": {
 							"id": "pin-window",
 							"customData": {
@@ -434,7 +434,7 @@
 						"type": "Custom",
 						"tooltip": "Unpin this window",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/pin-vertical.svg",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/pin-vertical.svg",
 						"action": {
 							"id": "unpin-window",
 							"customData": {
@@ -479,7 +479,7 @@
 						"type": "Custom",
 						"tooltip": "Share",
 						"disabled": false,
-						"iconUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/share.svg",
+						"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/common/icons/{theme}/{scheme}/share.svg",
 						"action": {
 							"id": "share",
 							"customData": {}
@@ -501,7 +501,7 @@
 				{
 					"id": "default",
 					"label": "Default",
-					"logoUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"logoUrl": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"default": "dark",
 					"palettes": {
 						"light": {
@@ -567,14 +567,14 @@
 		"homeProvider": {
 			"id": "workspace-platform-starter",
 			"title": "Workspace Platform Starter",
-			"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+			"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 			"queryMinLength": 3,
 			"queryAgainst": ["title"]
 		},
 		"storefrontProvider": {
 			"id": "workspace-platform-starter",
 			"title": "Workspace Platform Starter",
-			"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+			"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 			"landingPage": {
 				"hero": {
 					"title": "Custom Hero Title",
@@ -584,7 +584,7 @@
 						"tags": ["hero"]
 					},
 					"image": {
-						"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/images/store/superhero-unsplash.jpg"
+						"src": "https://rocketfin.github.io/openfin-macra-workspace/common/images/store/superhero-unsplash.jpg"
 					}
 				},
 				"topRow": {
@@ -594,7 +594,7 @@
 							"title": "Expero",
 							"description": "A collection of example views from Expero showing the power of interop and context sharing.",
 							"image": {
-								"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-1-unsplash.jpg"
+								"src": "https://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-1-unsplash.jpg"
 							},
 							"tags": ["expero"],
 							"buttonTitle": "View"
@@ -603,7 +603,7 @@
 							"title": "Dev Tools",
 							"description": "A collection of developer tools that can aid with building and debugging OpenFin applications.",
 							"image": {
-								"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-2-unsplash.jpg"
+								"src": "https://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-2-unsplash.jpg"
 							},
 							"tags": ["tools"],
 							"buttonTitle": "View"
@@ -612,7 +612,7 @@
 							"title": "Learning Resource",
 							"description": "A collection of developer documents that can aid with building and debugging OpenFin applications.",
 							"image": {
-								"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-3-unsplash.jpg"
+								"src": "https://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-3-unsplash.jpg"
 							},
 							"tags": ["page"],
 							"buttonTitle": "View"
@@ -630,7 +630,7 @@
 							"title": "Views",
 							"description": "A collection of views made available through our catalog.",
 							"image": {
-								"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-4-unsplash.jpg"
+								"src": "https://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-4-unsplash.jpg"
 							},
 							"tags": ["view"],
 							"buttonTitle": "View"
@@ -639,7 +639,7 @@
 							"title": "Web Apps",
 							"description": "A collection of web apps built using OpenFin.",
 							"image": {
-								"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-5-unsplash.jpg"
+								"src": "https://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-5-unsplash.jpg"
 							},
 							"tags": ["manifest"],
 							"buttonTitle": "View"
@@ -648,7 +648,7 @@
 							"title": "Native Apps",
 							"description": "A collection of native apps made available through our catalog.",
 							"image": {
-								"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-6-unsplash.jpg"
+								"src": "https://rocketfin.github.io/openfin-macra-workspace/common/images/store/coding-6-unsplash.jpg"
 							},
 							"tags": ["native"],
 							"buttonTitle": "View"
@@ -698,7 +698,7 @@
 			],
 			"footer": {
 				"logo": {
-					"src": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"src": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"size": "32"
 				},
 				"text": "Welcome to the OpenFin Sample Footer",
@@ -717,7 +717,7 @@
 		"dockProvider": {
 			"id": "workspace-platform-starter",
 			"title": "Workspace Platform Starter",
-			"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+			"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 			"workspaceComponents": {
 				"hideHomeButton": false,
 				"hideWorkspacesButton": false,
@@ -736,21 +736,21 @@
 		"notificationProvider": {
 			"id": "workspace-platform-starter",
 			"title": "Workspace Platform Starter",
-			"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico"
+			"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico"
 		},
 		"integrationProvider": {
-			"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+			"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 			"isManagementEnabled": false,
 			"command": "integrations",
 			"commandDescription": "Allows the management of integrations for this platform. You can decide whether enabled integrations should be included when a query is entered.",
 			"modules": [
 				{
 					"id": "apps",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "Apps",
 					"description": "Search Applications",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/apps.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/apps.bundle.js",
 					"data": {
 						"manifestTypeMapping": {
 							"view": {
@@ -814,27 +814,27 @@
 				},
 				{
 					"id": "workspaces",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "Workspaces",
 					"description": "Manage workspaces",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/workspaces.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/workspaces.bundle.js",
 					"data": {
 						"images": {
-							"workspace": "rhttps://rocketfin.github.io/openfin-macra-workspace/icons/{scheme}/workspace.svg"
+							"workspace": "https://rocketfin.github.io/openfin-macra-workspace/icons/{scheme}/workspace.svg"
 						}
 					}
 				},
 				{
 					"id": "pages",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "Pages",
 					"description": "Manage Pages",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/pages.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/pages.bundle.js",
 					"data": {
 						"images": {
-							"page": "rhttps://rocketfin.github.io/openfin-macra-workspace/icons/{scheme}/page.svg"
+							"page": "https://rocketfin.github.io/openfin-macra-workspace/icons/{scheme}/page.svg"
 						}
 					}
 				},
@@ -859,30 +859,30 @@
 				},
 				{
 					"id": "about",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "About",
 					"description": "Provides information about this platform.",
 					"enabled": true,
 					"excludeFromSourceFilter": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js",
 					"data": {}
 				},
 				{
 					"id": "quote",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "Quote Provider",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/quote.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/quote.bundle.js",
 					"data": {
-						"rootUrl": "rhttps://rocketfin.github.io/openfin-macra-workspace/data/quotes/"
+						"rootUrl": "https://rocketfin.github.io/openfin-macra-workspace/data/quotes/"
 					}
 				},
 				{
 					"id": "emoji",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "Emoji Provider",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/emoji.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/integrations/emoji.bundle.js",
 					"data": {}
 				}
 			]
@@ -893,7 +893,7 @@
 					"enabled": true,
 					"id": "interop",
 					"title": "Init Options Interop",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/init-options/interop.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/init-options/interop.bundle.js",
 					"data": {
 						"supportedActions": ["raise-intent", "share-context"]
 					}
@@ -902,7 +902,7 @@
 					"enabled": true,
 					"id": "launch-app",
 					"title": "Init Options Launch App",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/init-options/launch-app.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/init-options/launch-app.bundle.js",
 					"data": {
 						"supportedActions": ["launch-app"],
 						"supportedManifestTypes": [
@@ -923,7 +923,7 @@
 					"enabled": true,
 					"id": "console",
 					"title": "Console Logger",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/log/console.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/log/console.bundle.js"
 				}
 			]
 		},
@@ -933,23 +933,23 @@
 					"enabled": true,
 					"id": "opacity",
 					"title": "Opacity Action",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/actions/opacity.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/actions/opacity.bundle.js"
 				},
 				{
 					"enabled": true,
 					"id": "developer-actions",
 					"title": "Developer Actions",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/developer.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/developer.bundle.js"
 				},
 				{
 					"enabled": true,
 					"id": "about-actions",
 					"title": "About Actions",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js",
 					"data": {
 						"windowOptions": {
 							"name": "about",
-							"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/common/windows/version/about.html",
+							"url": "https://rocketfin.github.io/openfin-macra-workspace/common/windows/version/about.html",
 							"defaultCentered": true,
 							"showTaskbarIcon": false,
 							"autoShow": true,
@@ -965,13 +965,13 @@
 					"enabled": true,
 					"id": "page-actions",
 					"title": "Page Actions",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/pages.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/pages.bundle.js"
 				},
 				{
 					"enabled": true,
 					"id": "window-actions",
 					"title": "Window Actions",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/windows.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/windows.bundle.js"
 				}
 			]
 		},
@@ -981,7 +981,7 @@
 					"enabled": true,
 					"id": "about-conditions",
 					"title": "About Conditions",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js"
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js"
 				}
 			]
 		},
@@ -1037,7 +1037,7 @@
 					"enabled": true,
 					"id": "analytics.console",
 					"title": "Console Analytics",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/analytics/console.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/analytics/console.bundle.js",
 					"data": {
 						"eventLogLevel": "info"
 					}
@@ -1046,7 +1046,7 @@
 					"enabled": true,
 					"id": "analytics.dev.channel",
 					"title": "Analytics Dev Channel",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/developer.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/developer.bundle.js",
 					"data": {}
 				}
 			]
@@ -1058,7 +1058,7 @@
 			},
 			"versionWindow": {
 				"name": "versioning",
-				"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/windows/version/version.html",
+				"url": "https://rocketfin.github.io/openfin-macra-workspace/windows/version/version.html",
 				"defaultCentered": true,
 				"showTaskbarIcon": false,
 				"autoShow": true,
@@ -1078,34 +1078,34 @@
 					"enabled": true,
 					"id": "developer-menus",
 					"title": "Developer Menus",
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/developer.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/developer.bundle.js",
 					"data": {}
 				},
 				{
 					"id": "about",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "About",
 					"description": "Provides information about this platform.",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/about.bundle.js",
 					"data": {}
 				},
 				{
 					"id": "pages",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "Pages",
 					"description": "Provides additional menu options for pages.",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/pages.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/pages.bundle.js",
 					"data": {}
 				},
 				{
 					"id": "windows",
-					"icon": "rhttps://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+					"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 					"title": "Windows",
 					"description": "Provides additional menu options for windows.",
 					"enabled": true,
-					"url": "rhttps://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/windows.bundle.js",
+					"url": "https://rocketfin.github.io/openfin-macra-workspace/js/modules/composite/windows.bundle.js",
 					"data": {}
 				}
 			]
