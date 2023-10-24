@@ -4,7 +4,7 @@
         "name": "rocketfin-macra-demo",
         "title": "RocketFin Macra Application",
         "description": "This application is a demo of the RocketFin Macra Application",
-        "manifest": "https://localhost:3000",
+        "manifest": "https://rocketfin.github.io/openfin-macra-workspace/views/rocketfin-macra-app-view.json",
         "manifestType": "snapshot",
         "contactEmail": "albert.herd@rocketfin.co",
         "supportEmail": "albert.herd@rocketfin.co",

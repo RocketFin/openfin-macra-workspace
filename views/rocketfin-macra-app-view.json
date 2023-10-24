@@ -11,7 +11,7 @@
 						"type": "component",
 						"componentName": "view",
 						"componentState": {											
-							"url": "https://albert-herd-rocketfin.github.io/bdc-app",
+							"url": "https://localhost:3000",
 							"fdc3InteropApi": "1.2",
 							"interop": {
 								"currentContextGroup": "green"
