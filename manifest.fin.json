@@ -62,8 +62,8 @@
 	"shortcut": {
 		"company": "RocketFin",
 		"description": "RocketFin Macra Demo running in OpenFin", 
-		"icon": "https://rocketfin.github.io/openfin-macra-workspace/macra-logo.ico",
-		"name": "RocketFin MGA Demo",
+		"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
+		"name": "RocketFin Macra Demo",
 		"target": ["desktop", "start-menu"]
 	},
 	"supportInformation": {
@@ -728,7 +728,7 @@
 				{
 					"display": "individual",
 					"tooltip": "RocketFin Macra App",
-					"iconUrl": "https://assets.website-files.com/5bb0068c1270ad1887e1c172/5bc86650e1f4046f0103e3c4_RocketFin_Favicon32.png",
+					"iconUrl": "https://rocketfin.github.io/openfin-macra-workspace/macra-logo.ico",
 					"tags": ["rocketfin"]
 				}
 			]
