@@ -11,7 +11,7 @@
 						"type": "component",
 						"componentName": "view",
 						"componentState": {											
-							"url": "https://localhost:5170",
+							"url": "http://rf-macra.s3-website.eu-west-2.amazonaws.com",
 							"fdc3InteropApi": "1.2",
 							"interop": {
 								"currentContextGroup": "green"
