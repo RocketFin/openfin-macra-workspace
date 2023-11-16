@@ -10,8 +10,8 @@
 		"name": "rocketfin-macra-app"
 	},
 	"platform": {
-		"name": "rocketfin-macra-app",
-		"uuid": "rocketfin-macra-app",
+		"name": "rocketfin-macra-app-name",
+		"uuid": "rocketfin-macra-app-uuid",
 		"icon": "https://rocketfin.github.io/openfin-macra-workspace/favicon.ico",
 		"autoShow": false,
 		"providerUrl": "https://rocketfin.github.io/openfin-macra-workspace/platform/provider.html",
