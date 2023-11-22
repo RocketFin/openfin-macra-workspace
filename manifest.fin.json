@@ -4,7 +4,7 @@
 	"licenseKey": "openfin-demo-license-key",
 	"runtime": {
 		"arguments": "--v=1 --inspect",
-		"version": "31.112.75.4"
+		"version": "32.114.76.20"
 	},
 	"startup_app": {
 		"name": "rocketfin-macra-app"
@@ -71,6 +71,18 @@
 		"product": "RocketFin Macra Demo - Client",
 		"email": "albert.herd@openfin.co",
 		"forwardErrorReports": true
+	},
+	"appAssets": [
+		{
+			"src": "https://cdn.openfin.co/release/snap/0.2.0/snap.zip",
+			"alias": "openfin-snap",
+			"version": "0.2.0",
+			"target": "OpenFinSnap.exe",
+			"mandatory": true
+		}
+	],
+	"snapProvider": {
+		"showDebugWindow": false
 	},
 	"customSettings": {
 		"bootstrap": {
